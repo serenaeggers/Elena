@@ -1,0 +1,72 @@
+@import url(../css/reset.css);
+body {
+  background-color: #F2E1D3;
+  color: #212121;
+  font-weight: 300;
+  font-family: "Assistant", sans-serif; }
+
+a {
+  color: #663134;
+  transition: all 0.4s ease; }
+
+a:hover {
+  color: #F2E1D3; }
+
+.bar {
+  width: 100%;
+  height: 5vw;
+  background-color: #663134;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4); }
+
+.avatar {
+  border-radius: 50%;
+  height: 15vw;
+  width: 15vw;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 42.5vw;
+  top: -5vw;
+  z-index: 100; }
+
+nav li {
+  float: left;
+  text-align: center;
+  font-family: "Cormorant", serif; }
+
+#index-header {
+  background-image: url("../img/cobblestones.jpg");
+  background-size: cover;
+  height: 70vh; }
+  #index-header h1 {
+    color: #663134;
+    font-weight: 100;
+    font-size: 17vh;
+    text-align: center;
+    padding: 23vh;
+    font-family: "Cormorant", serif; }
+
+#splash-bar {
+  position: fixed;
+  top: 70vh; }
+  #splash-bar .avatar {
+    background-image: url("../img/elena_01.jpg");
+    background-size: cover; }
+
+#splash-nav ul {
+  background-color: #CEB6A5;
+  height: 30vh;
+  width: 100%;
+  box-shadow: inset 0 0 30px 5px rgba(188, 156, 113, 0.6); }
+#splash-nav li {
+  width: 23vw;
+  height: 15vh;
+  padding-top: 15vh; }
+#splash-nav .spacer {
+  width: 8vw; }
+#splash-nav a {
+  font-size: 2.7rem;
+  font-family: "Assistant", sans-serif;
+  font-variant: small-caps; }
+
+/*# sourceMappingURL=styles.css.map */
