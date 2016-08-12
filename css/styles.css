@@ -41,7 +41,7 @@ nav li {
   #index-header h1 {
     color: #663134;
     font-weight: 100;
-    font-size: 17vh;
+    font-size: 16vh;
     text-align: center;
     padding: 23vh;
     font-family: "Cormorant", serif; }
@@ -68,5 +68,42 @@ nav li {
   font-size: 2.7rem;
   font-family: "Assistant", sans-serif;
   font-variant: small-caps; }
+
+@media only screen and (max-width: 927px) {
+  #index-header h1 {
+    font-size: 12vh;
+    padding: 26vh; }
+
+  #splash-nav a {
+    font-size: 1.6rem; } }
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+  #index-header {
+    height: 35vh; }
+    #index-header h1 {
+      font-size: 8vh;
+      padding: 8vh;
+      padding-left: 15vw;
+      padding-right: 15vw; }
+
+  #splash-bar {
+    top: 35vh;
+    height: 5vh; }
+    #splash-bar .avatar {
+      display: none; }
+
+  #splash-nav ul {
+    height: 60vh;
+    width: 100%;
+    padding-top: 5vh;
+    box-shadow: inset 0 0 30px 5px rgba(188, 156, 113, 0.6), inset 0 -200px 200px -200px rgba(0, 0, 0, 0.7); }
+  #splash-nav li {
+    width: 100vw;
+    height: 7vh;
+    padding-top: 2.5vh;
+    padding-bottom: 3.5vh; }
+  #splash-nav .spacer {
+    display: none; }
+  #splash-nav a {
+    font-size: 7vh; } }
 
 /*# sourceMappingURL=styles.css.map */

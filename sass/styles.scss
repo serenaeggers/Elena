@@ -3,6 +3,7 @@
 
 $dark-color: #663134;
 $medium-color: #CEB6A5;
+$off-medium: #CCB2A3;
 $light-color: #F2E1D3;
 $black: #212121;
 
@@ -63,6 +64,12 @@ nav
     text-align: center;
     font-family: $serif;
   }
+}
+
+// small screen adjustments
+@media only screen and (max-width: 927px) {
+
+
 }
 
 // index.html-specific styling
