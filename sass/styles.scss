@@ -15,7 +15,7 @@ $serif: 'Cormorant', serif;
 
 body
 {
-  background-color: $light-color;
+  background-color: $dark-color;
   color: $black;
   font-weight: 300;
   font-family: $sans;
@@ -133,7 +133,7 @@ nav
 main
 {
   min-height: 85vh;
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 footer
@@ -187,10 +187,12 @@ footer
   main
   {
     min-height: 84vh;
-    padding: 3vh 7vw 3vh 7vw;
   }
 
 }
 
 // index.html-specific styling
 @import '../sass/index.scss';
+
+// styling for fiction.html and non-fiction.html
+@import '../sass/menus.scss';

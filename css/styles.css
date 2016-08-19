@@ -1,6 +1,6 @@
 @import url(../css/reset.css);
 body {
-  background-color: #F2E1D3;
+  background-color: #663134;
   color: #212121;
   font-weight: 300;
   font-family: "Assistant", sans-serif; }
@@ -81,7 +81,7 @@ nav li {
 
 main {
   min-height: 85vh;
-  padding-top: 4rem; }
+  padding-top: 3rem; }
 
 footer {
   background-color: #CEB6A5;
@@ -118,8 +118,7 @@ footer {
     display: none; }
 
   main {
-    min-height: 84vh;
-    padding: 3vh 7vw 3vh 7vw; } }
+    min-height: 84vh; } }
 #index-header {
   background-image: url("../img/cobblestones.jpg");
   background-size: cover;
@@ -191,5 +190,70 @@ footer {
     display: none; }
   #splash-nav a {
     font-size: 7vh; } }
+h2 {
+  padding: 1.5rem;
+  padding-bottom: 2rem;
+  font-size: 3.5rem;
+  font-variant: small-caps;
+  text-align: center;
+  color: #663134;
+  font-family: "Cormorant", serif;
+  background-color: #CEB6A5; }
+
+main ul {
+  background-color: #663134;
+  padding: 1.5vw 5vw 3vw 5vw; }
+  main ul li {
+    width: 90vw;
+    height: 75px;
+    margin-top: 10px;
+    padding: 10px 0 10px 0;
+    background-color: rgba(50, 0, 0, 0.2);
+    box-shadow: inset 0 0 20px 0 rgba(0, 0, 0, 0.35);
+    border-radius: 20px; }
+    main ul li a {
+      color: #F2E1D3;
+      transition: all 0.4s ease; }
+    main ul li a:hover {
+      color: white; }
+    main ul li h3 {
+      float: left;
+      padding: 25px 8vw 25px 8vw;
+      border-right: 1px solid #F2E1D3;
+      font-size: 25px;
+      min-width: 30vw; }
+    main ul li .download {
+      opacity: 0.5;
+      transition: all 0.4s ease;
+      padding: 25px 8vw 25px 8vw;
+      font-size: 25px;
+      position: relative;
+      top: 20px; }
+    main ul li .download:hover {
+      opacity: 1; }
+
+div.thumb {
+  height: 95px;
+  width: 95px;
+  background-color: #CEB6A5;
+  box-shadow: inset 0 0 20px 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  bottom: 10px;
+  margin-left: 8vw;
+  float: left; }
+
+@media only screen and (max-width: 800px) {
+  main ul li h3 {
+    padding: 29.5px 6vw 29.5px 6vw;
+    border-right: none;
+    font-size: 18px; }
+  main ul li .download {
+    padding: 0 0 0 0;
+    position: relative;
+    top: 30px;
+    font-size: 13px; }
+
+  div.thumb {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=styles.css.map */
