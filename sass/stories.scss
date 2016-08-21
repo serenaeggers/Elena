@@ -32,13 +32,6 @@
   padding: 5vw;
   font-family: $serif;
 
-  .quote
-  {
-    text-align: center;
-    font-variant: small-caps;
-    font-size: 1.5rem;
-  }
-
   span
   {
     margin-top: 3rem;
@@ -58,5 +51,12 @@
     border-top: 1px solid $dark-color;
     width: 100%;
     margin: 2rem 0 2rem 0;
+  }
+
+  h4
+  {
+    text-align: center;
+    font-size: 1.5rem;
+    font-variant: small-caps;
   }
 }
