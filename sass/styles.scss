@@ -136,6 +136,11 @@ main
   padding-top: 3rem;
 }
 
+p
+{
+  font-size: 1.5rem;
+}
+
 footer
 {
   background-color: $medium-color;
@@ -196,3 +201,9 @@ footer
 
 // styling for fiction.html and non-fiction.html
 @import '../sass/menus.scss';
+
+// styles for story text pages
+@import '../sass/stories.scss';
+
+// styles for about.html
+@import '../sass/about.scss';

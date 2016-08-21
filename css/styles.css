@@ -83,6 +83,9 @@ main {
   min-height: 85vh;
   padding-top: 3rem; }
 
+p {
+  font-size: 1.5rem; }
+
 footer {
   background-color: #CEB6A5;
   padding: 1rem;
@@ -242,6 +245,15 @@ div.thumb {
   margin-left: 8vw;
   float: left; }
 
+li .thumb {
+  background-image: url("../img/thumbnail_01.jpg"); }
+
+li:nth-of-type(3n-1) .thumb {
+  background-image: url("../img/thumbnail_02.jpg"); }
+
+li:nth-of-type(3n) .thumb {
+  background-image: url("../img/thumbnail_03.jpg"); }
+
 @media only screen and (max-width: 800px) {
   main ul li h3 {
     padding: 29.5px 6vw 29.5px 6vw;
@@ -255,5 +267,64 @@ div.thumb {
 
   div.thumb {
     margin-left: 0; } }
+.title {
+  background-color: #CEB6A5;
+  min-height: 20vh;
+  text-align: center;
+  font-size: 1.6rem; }
+  .title h3 {
+    font-size: 3rem;
+    padding: 5vw; }
+  .title h4 {
+    display: inline-block;
+    padding-bottom: 5vw;
+    padding-right: 2rem; }
+  .title .avatar {
+    position: relative;
+    background-color: #CEB6A5;
+    z-index: 80; }
+
+.story {
+  background-color: #F2E1D3;
+  padding: 5vw;
+  font-family: "Cormorant", serif; }
+  .story .quote {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1.5rem; }
+  .story span {
+    margin-top: 3rem;
+    font-size: 3rem; }
+  .story p {
+    text-indent: 3rem;
+    margin: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0; }
+  .story .pause {
+    border-top: 1px solid #663134;
+    width: 100%;
+    margin: 2rem 0 2rem 0; }
+
+aside {
+  background-image: url("../img/elena-02.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  width: 40vw;
+  position: fixed;
+  left: 0;
+  top: 5vh;
+  z-index: -1; }
+  aside div {
+    background-color: #CEB6A5;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4; }
+
+.column {
+  min-height: 95vh;
+  width: 60vw;
+  margin-left: 40vw;
+  background-color: #F2E1D3; }
 
 /*# sourceMappingURL=styles.css.map */

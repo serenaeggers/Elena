@@ -1,0 +1,62 @@
+.title
+{
+  background-color: $medium-color;
+  min-height: 20vh;
+  text-align: center;
+  font-size: 1.6rem;
+
+  h3
+  {
+    font-size: 3rem;
+    padding: 5vw;
+  }
+
+  h4
+  {
+    display: inline-block;
+    padding-bottom: 5vw;
+    padding-right: 2rem;
+  }
+
+  .avatar
+  {
+    position: relative;
+    background-color: $medium-color;
+    z-index: 80;
+  }
+}
+
+.story
+{
+  background-color: $light-color;
+  padding: 5vw;
+  font-family: $serif;
+
+  .quote
+  {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+  }
+
+  span
+  {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+
+  p
+  {
+    text-indent: 3rem;
+    margin: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+  }
+
+  .pause
+  {
+    border-top: 1px solid $dark-color;
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+  }
+}

@@ -74,6 +74,21 @@ div.thumb
   float: left;
 }
 
+li .thumb
+{
+  background-image: url('../img/thumbnail_01.jpg');
+}
+
+li:nth-of-type(3n-1) .thumb
+{
+  background-image: url('../img/thumbnail_02.jpg');
+}
+
+li:nth-of-type(3n) .thumb
+{
+  background-image: url('../img/thumbnail_03.jpg');
+}
+
 // small screen  and portrait adjustments
 @media only screen and (max-width: 800px) {
 
