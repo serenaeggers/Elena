@@ -26,6 +26,12 @@ aside
   margin-left: 40vw;
   background-color: $light-color;
   color: $dark-color;
+  padding-bottom: 2rem;
+
+  .title
+  {
+    margin-bottom: 2rem;
+  }
 
   p
   {
@@ -45,7 +51,6 @@ aside
     .title
     {
       padding-top: 4vh;
-      margin-bottom: 2rem;
     }
   }
 
