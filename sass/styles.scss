@@ -153,6 +153,14 @@ footer
   text-align: center;
 }
 
+// small screen including landscape adjustments
+@media only screen and (max-width: 800px){
+  #home-tab a
+  {
+    font-size: 1.7rem;
+  }
+}
+
 // small screen  and portrait adjustments
 @media only screen and (max-width: 800px) and (orientation: portrait) {
   #top-nav
@@ -212,3 +220,6 @@ footer
 
 // styles for about.html
 @import '../sass/about.scss';
+
+// styles for contact.html
+@import '../sass/contact.scss';

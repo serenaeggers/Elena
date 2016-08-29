@@ -94,6 +94,9 @@ footer {
   padding: 1rem;
   text-align: center; }
 
+@media only screen and (max-width: 800px) {
+  #home-tab a {
+    font-size: 1.7rem; } }
 @media only screen and (max-width: 800px) and (orientation: portrait) {
   #top-nav {
     background-color: #663134;
@@ -328,6 +331,31 @@ aside {
   min-height: 95vh;
   width: 60vw;
   margin-left: 40vw;
+  background-color: #F2E1D3;
+  color: #663134; }
+  .column p {
+    padding: 2rem 7vw 2rem 7vw;
+    font-size: 1.7rem;
+    line-height: 2rem; }
+
+@media only screen and (max-width: 800px) {
+  .column {
+    margin-left: 0;
+    width: 100vw; }
+    .column .title {
+      padding-top: 4vh;
+      margin-bottom: 2rem; }
+
+  aside {
+    height: 50vh;
+    width: 100vw;
+    position: inherit;
+    background-attachment: fixed; } }
+#contact-main {
   background-color: #F2E1D3; }
+  #contact-main h4 {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 10vh 15vw 0 15vw; }
 
 /*# sourceMappingURL=styles.css.map */
